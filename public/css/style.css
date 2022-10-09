@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+/* input div design  */
+/* .input_div{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px  #dfdfdf;
+    background: #3b3636;
+}
+
+.input_div input {
+    width: 90%;
+    height: 50px;
+    padding: 4px 10px;
+    font-size: 17px;
+}
+.input_div input::placeholder{
+    font-size: 17px;
+}
+.input_div input:focus{
+    outline: none;
+}
+.input_div button {
+    width: 90%;
+    height: 40px;
+    font-size: 18px;
+} */
+
+
+#my_socket_id {
+   text-align: center;
+   margin-top: 30px;
+}
+
+.call_div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.call_div  input {
+    font-size: 17px;
+    width: 400px;
+    height: 40px;
+    padding: 5px 10px;
+}
+.call_div  input:focus{
+    outline: none;
+}
+.call_div  button {
+    width: 400px;
+    height: 40px;
+    background-color: #34a366;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.call_recieve_div{
+    margin: 300px auto;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #f1fcf6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+}
+.call_recieve_div h3 {
+    margin-bottom: 30px;
+}
+.call_recieve_div .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.call_recieve_div .buttons button {
+    width: 220px;
+    height: 40px;
+    border: 1px solid #929292;
+    background-color: #a13d94;
+    color: white;
+}
+.call_recieve_div .buttons button:first-child{
+    background-color: #34a366;
+    color: white;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBRTC</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <h1 style="text-align: center; margin-top: 10px; " >Your unique id down below</h1>
+        <h1 id="my_socket_id" ></h1>
+        <div class="call_div">
+            <input type="text" id="reciever_id" placeholder="Enter Reciever Id" > <br> <br>
+            <button id="call_btn" >Call</button>
+        </div>
+        <!-- <div class="call_recieve_div">
+            <h3>md shehab is calling you</h3>
+            <div class="buttons">
+                <button>Accept</button>
+                <button>Reject</button>
+            </div>
+        </div> -->
+        <div class="audio">
+            <audio id="local_audio" muted controls autoplay ></audio>
+            <audio id="remote_audio"  controls autoplay  ></audio>
+        </div>
+    </main>
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
+    <script src="./js/main.js" ></script>
+</body>
+</html>
